@@ -1,4 +1,6 @@
-<?php include_once('include/header.php'); ?>
+<?php
+$page = 'inner';
+include_once('include/header.php'); ?>
     <!-- BEGIN CONTAINER -->
     <div class="page-container row-fluid">
         <?php include_once('include/sidebar.php')?>
