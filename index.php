@@ -324,4 +324,4 @@
       <!-- END CHAT -->
     </div>
     <!-- END CONTENT -->
-<?php include_once('footer.php');?>
+<?php include_once('include/footer.php');?>

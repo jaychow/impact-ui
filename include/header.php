@@ -47,11 +47,6 @@
                         <div class="iconset top-home"></div>
                     </a>
                 </li>
-                <li class="dropdown hidden-xs hidden-sm">
-                    <a href="email.html" class="dropdown-toggle">
-                        <div class="iconset top-messages"></div><span class="badge">2</span>
-                    </a>
-                </li>
                 <li class="dropdown visible-xs visible-sm">
                     <a href="#" data-webarch="toggle-right-side">
                         <div class="iconset top-chat-white "></div>
