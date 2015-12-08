@@ -32,7 +32,7 @@
             <!-- BEGIN BADGE LINK -->
             <li class="<?php echo ($page == 'inner') ? 'active' : null?>">
                 <a href="inner.php">
-                    <i class="fa fa-page"></i>
+                    <i class="fa fa-file-text"></i>
                     <span class="title">Inner Page</span>
                 </a>
             </li>
@@ -54,16 +54,5 @@
 <!-- END SCROLL UP HOVER -->
 <!-- END MENU -->
 <!-- BEGIN SIDEBAR FOOTER WIDGET -->
-<div class="footer-widget">
-    <div class="progress transparent progress-small no-radius no-margin">
-        <div data-percentage="79%" class="progress-bar progress-bar-success animate-progress-bar"></div>
-    </div>
-    <div class="pull-right">
-        <div class="details-status">
-            <span data-animation-duration="560" data-value="86" class="animate-number"></span>%
-        </div>
-        <a href="#"><i class="fa fa-power-off"></i></a>
-    </div>
-</div>
 <!-- END SIDEBAR FOOTER WIDGET -->
 <!-- END SIDEBAR -->

@@ -15,5 +15,6 @@
 <script src="webarch/js/webarch.js" type="text/javascript"></script>
 <script src="assets/js/chat.js" type="text/javascript"></script>
 <!-- END CORE TEMPLATE JS -->
+<script src="assets/js/search_result.js" type="text/javascript"></script>
 </body>
 </html>
