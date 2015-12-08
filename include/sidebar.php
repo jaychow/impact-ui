@@ -12,13 +12,12 @@
                 <div class="username">Dustin <span class="semi-bold">Henson</span></div>
                 <div class="status">Status
                     <a href="#">
-                        <div class="status-icon green"></div>Online</a>
+                        <div class="status-icon blue"></div>Online</a>
                 </div>
             </div>
         </div>
         <!-- END MINI-PROFILE -->
         <!-- BEGIN SIDEBAR MENU -->
-        <p class="menu-title">BROWSE<span class="pull-right"><a href="javascript:;"><i class="fa fa-refresh"></i></a></span></p>
         <ul>
             <!-- BEGIN SELECTED LINK -->
             <li class="start <?php echo ($page == 'home') ? 'active' : null?>">

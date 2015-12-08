@@ -3,18 +3,9 @@ $page = 'inner';
 include_once('include/header.php'); ?>
     <!-- BEGIN CONTAINER -->
     <div class="page-container row-fluid">
-        <?php include_once('include/sidebar.php')?>
+        <?php include_once('include/sidebar.php') ?>
         <!-- BEGIN PAGE CONTAINER-->
         <div class="page-content">
-            <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-            <div id="portlet-config" class="modal hide">
-                <div class="modal-header">
-                    <button data-dismiss="modal" class="close" type="button"></button>
-                    <h3>Widget Settings</h3>
-                </div>
-                <div class="modal-body"> Widget settings form goes here</div>
-            </div>
-            <div class="clearfix"></div>
             <div class="content">
                 <ul class="breadcrumb">
                     <li>
@@ -24,24 +15,15 @@ include_once('include/header.php'); ?>
                 </ul>
                 <div class="page-title"><i class="icon-custom-left"></i>
 
-                    <h3>Theme - <span class="semi-bold">Coporate</span></h3>
+                    <h3>Section Title</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-7">
-                        <div class="grid simple transparent">
+                    <div class="col-md-12">
+                        <div class="grid simple white">
                             <div class="grid-title">
-                                <h4>General <span class="semi-bold">Typography</span></h4>
-
-                                <div class="tools">
-                                    <a href="javascript:;" class="collapse"></a>
-                                    <a href="#grid-config" data-toggle="modal" class="config"></a>
-                                    <a href="javascript:;" class="reload"></a>
-                                    <a href="javascript:;" class="remove"></a>
-                                </div>
+                                <h1>Research Publications</span></h1>
                             </div>
                             <div class="grid-body">
-
-                                <h1>Research Publications</span></h1>
 
                                 <div style="margin-bottom:20px; height: 210px;">
                                     <a class="pull-left" style="padding-right: 10px;" href="#"><img
@@ -68,119 +50,70 @@ include_once('include/header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="grid simple">
-                            <div class="grid-title no-border">
-                                <h4>Help <span class="semi-bold">Guide</span></h4>
-
-                                <div class="tools"><a href="javascript:;" class="collapse"></a> <a href="#grid-config"
-                                                                                                   data-toggle="modal"
-                                                                                                   class="config"></a>
-                                    <a href="javascript:;" class="reload"></a> <a href="javascript:;"
-                                                                                  class="remove"></a></div>
-                            </div>
-                            <div class="grid-body no-border">
-                                </p>
-                                <br>
-                                <h4><span class="semi-bold">Categories</span></h4>
-                                <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                        <div><i class="fa fa-angle-right"></i><a href="#"> Researchers</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><i class="fa fa-angle-right"></i><a href="#"> Publishers</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <br><br>
-                                <h4><span class="semi-bold">Tags</span></h4>
-                                <code>
-                                    Research
-                                </code><br>
-                                <code>
-                                    Data
-                                </code><br>
-                                <code>
-                                    Publication
-                                </code>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="grid simple ">
-                                    <div class="grid-title no-border">
-                                        <h4>Research Stuff</span></h4>
-
-                                        <div class="tools"><a href="javascript:;" class="collapse"></a>
-                                            <a href="#grid-config" data-toggle="modal" class="config"></a>
-                                            <a href="javascript:;" class="reload"></a>
-                                            <a href="javascript:;" class="remove"></a>
+                    <div class="col-md-12">
+                        <div class="grid simple ">
+                            <div class="grid-title no-border">
+                                <h4>Table of Content</span></h4>
+                            </div>
+                            <div class="grid-body no-border">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse"
+                                                   href="#collapse1">
+                                                    Collapsible Group 1</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse1" class="panel-collapse collapse in">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                aliqua. Ut enim ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                                aliquip ex ea
+                                                commodo consequat.
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="grid-body no-border">
-                                        <div class="panel-group" id="accordion">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion"
-                                                           href="#collapse1">
-                                                            Collapsible Group 1</a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse1" class="panel-collapse collapse in">
-                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur
-                                                        adipisicing elit,
-                                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                        aliqua. Ut enim ad
-                                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                        aliquip ex ea
-                                                        commodo consequat.
-                                                    </div>
-                                                </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse"
+                                                   href="#collapse2">
+                                                    Collapsible Group 2</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse2" class="panel-collapse collapse">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                aliqua. Ut enim ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                                aliquip ex ea
+                                                commodo consequat.
                                             </div>
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion"
-                                                           href="#collapse2">
-                                                            Collapsible Group 2</a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse2" class="panel-collapse collapse">
-                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur
-                                                        adipisicing elit,
-                                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                        aliqua. Ut enim ad
-                                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                        aliquip ex ea
-                                                        commodo consequat.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion"
-                                                           href="#collapse3">
-                                                            Collapsible Group 3</a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse3" class="panel-collapse collapse">
-                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur
-                                                        adipisicing elit,
-                                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                        aliqua. Ut enim ad
-                                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                        aliquip ex ea
-                                                        commodo consequat.
-                                                    </div>
-                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse"
+                                                   href="#collapse3">
+                                                    Collapsible Group 3</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse3" class="panel-collapse collapse">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                aliqua. Ut enim ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                                aliquip ex ea
+                                                commodo consequat.
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +121,6 @@ include_once('include/header.php'); ?>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
