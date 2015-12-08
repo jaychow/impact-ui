@@ -675,7 +675,7 @@ body.boxed-layout .footer-widget {
 .page-sidebar.mini {
   width: 50px;
   overflow: visible !important;
-  background-color: #0aa699 !important;
+  background-color: #0A74A6 !important;
   height: 100%;
   margin-top: 0;
   position: fixed;
@@ -786,7 +786,7 @@ body.boxed-layout .footer-widget {
 .page-sidebar .page-sidebar-wrapper > ul > li.open > a,
 .page-sidebar .page-sidebar-wrapper > ul > li > a:hover,
 .page-sidebar .page-sidebar-wrapper > ul > li:hover > a {
-  background: #1b1e24;
+  background: #513830;
   color: #ffffff;
 }
 .page-sidebar.mini .page-sidebar-wrapper > ul > li a > .label {
@@ -858,7 +858,7 @@ body.boxed-layout .footer-widget {
   left: auto;
 }
 .pace .pace-progress {
-  background: #0aa699;
+  background: #0A6CA6;
 }
 .pace .pace-progress-inner {
   box-shadow: 0 0 10px #0aa699, 0 0 5px #0aa699;
@@ -1275,7 +1275,7 @@ body.boxed-layout .footer-widget {
 .page-content {
   margin-top: 0px;
   padding: 0px;
-  background-color: #D6EFFF;
+  background-color: #E8F4F9;
   overflow: auto;
   position: relative;
   min-height: 100%;
