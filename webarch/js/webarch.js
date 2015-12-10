@@ -490,7 +490,7 @@ $(document).ready(function () {
                 $('.scrollup').removeClass('to-edge');
                 $('.header-seperation').show();
                 //Bug fix - In high resolution screen it leaves a white margin
-                $('.header-seperation').css('height', '61px');
+                $('.header-seperation').css('height', '60px');
                 $('.footer-widget').show();
             } else {
                 $('body').addClass('grey');
