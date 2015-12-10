@@ -5,14 +5,14 @@
         <!-- BEGIN MINI-PROFILE -->
         <div class="user-info-wrapper">
             <div class="profile-wrapper">
-                <img src="assets/img/profiles/dustin.jpg" alt="" data-src="assets/img/profiles/dustin.jpg" data-src-retina="assets/img/profiles/dustin.jpg" width="69" height="69" />
+                <img src="assets/img/profiles/avatar.jpg" alt="" data-src="assets/img/profiles/avatar.jpg" data-src-retina="assets/img/profiles/avatar.jpg" width="69" height="69" />
             </div>
             <div class="user-info">
                 <div class="greeting">Welcome</div>
-                <div class="username">Dustin <span class="semi-bold">Henson</span></div>
+                <div class="username">User <span class="semi-bold">Name</span></div>
                 <div class="status">Status
                     <a href="#">
-                        <div class="status-icon blue"></div>Online</a>
+                        <div class="status-icon blue"></div>Last Online: 12/01/2015</a>
                 </div>
             </div>
         </div>
