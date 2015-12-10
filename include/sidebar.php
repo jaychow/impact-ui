@@ -10,7 +10,7 @@
             <div class="user-info">
                 <div class="greeting">Welcome</div>
                 <div class="username">User <span class="semi-bold">Name</span></div>
-                <div class="status">Status
+                <div class="status">
                     <a href="#">
                         <div class="status-icon blue"></div>Last Online: 12/01/2015</a>
                 </div>

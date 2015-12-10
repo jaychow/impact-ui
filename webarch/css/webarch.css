@@ -207,7 +207,7 @@ body.boxed-layout .footer-widget {
 }
 .header .navbar-inner {
   background-image: none !important;
-  background-color: #6B5A53 !important;
+  background-color: #1890D4 !important;
   width: 100%;
   margin: 0;
   border: 0px;
@@ -311,6 +311,7 @@ body.boxed-layout .footer-widget {
   display: block;
   float: left;
   height: 60px;
+  border-right: 1px solid white;
 }
 .header .header-seperation .notifcation-center {
   margin-right: 15px !important;
