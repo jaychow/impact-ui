@@ -191,7 +191,7 @@ body.boxed-layout .footer-widget {
   position: relative;
 }
 .header-seperation {
-  background-color: #1890D4;
+  background-color: #515f6e;
 }
 .header {
   -webkit-transition: -webkit-transform 0.3s ease, left 0.3s ease, right 0.3s ease;
@@ -207,7 +207,7 @@ body.boxed-layout .footer-widget {
 }
 .header .navbar-inner {
   background-image: none !important;
-  background-color: #1890D4 !important;
+  background-color: #515f6e !important;
   width: 100%;
   margin: 0;
   border: 0px;
@@ -276,7 +276,7 @@ body.boxed-layout .footer-widget {
   color: #ffffff;
 }
 .header .nav > li.dropdown .active {
-  background-color: #1890D4;
+  background-color: #515f6e;
 }
 .header .nav > li.dropdown.user .dropdown-toggle {
   padding: 8px 4px 7px 9px;
@@ -311,7 +311,6 @@ body.boxed-layout .footer-widget {
   display: block;
   float: left;
   height: 60px;
-  border-right: 1px solid white;
 }
 .header .header-seperation .notifcation-center {
   margin-right: 15px !important;
@@ -485,7 +484,7 @@ body.boxed-layout .footer-widget {
   font-weight: normal;
 }
 .page-sidebar {
-  background-color: #6B5A53 !important;
+  background-color: #5F6B77 !important;
   height: 100%;
   font-family: 'Open Sans';
   -webkit-backface-visibility: hidden;
@@ -525,7 +524,7 @@ body.boxed-layout .footer-widget {
   border: 0px;
 }
 .page-sidebar .page-sidebar-wrapper > ul > li > a {
-  color: #c8b1a0;
+  color: #FFFFFF;
   display: block;
   position: relative;
   margin: 0;
@@ -559,7 +558,7 @@ body.boxed-layout .footer-widget {
   border-bottom: 1px solid transparent !important;
 }
 .page-sidebar .page-sidebar-wrapper > ul > li a i {
-  color: #c8b1a0;
+  color: #F7F7F7;
   width: 20px;
   text-align: center;
   display: inline-block;
@@ -787,7 +786,7 @@ body.boxed-layout .footer-widget {
 .page-sidebar .page-sidebar-wrapper > ul > li.open > a,
 .page-sidebar .page-sidebar-wrapper > ul > li > a:hover,
 .page-sidebar .page-sidebar-wrapper > ul > li:hover > a {
-  background: #513830;
+  background: #515f6e;
   color: #ffffff;
 }
 .page-sidebar.mini .page-sidebar-wrapper > ul > li a > .label {
@@ -1979,7 +1978,7 @@ h6 {
   margin: 10px 0;
   font-family: 'Open Sans';
   font-weight: 300;
-  color: #505458;
+  color: #795739;
 }
 h1 {
   line-height: 43px;
