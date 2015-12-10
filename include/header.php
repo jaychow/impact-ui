@@ -37,7 +37,7 @@
             <!-- END MOBILE HEADER -->
             <!-- BEGIN LOGO -->
             <a href="#">
-                <img src="assets/img/logoImpact.png" class="logo" alt="" data-src="assets/img/logoImpact.png" data-src-retina="assets/img/logoImpact.png" width="106" height="21" /> TESTET
+                <img src="assets/img/logoImpact.png" class="logo" alt="" data-src="assets/img/logoImpact.png" data-src-retina="assets/img/logoImpact.png" width="106" height="21" /> TESTETTTT
             </a>
             <!-- END LOGO -->
             <!-- BEGIN LOGO NAV BUTTONS -->
