@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic);
 /*------------------------------------------------------------------
 Webarch v2.8
 Theme : Default
@@ -276,7 +276,7 @@ body.boxed-layout .footer-widget {
   color: #ffffff;
 }
 .header .nav > li.dropdown .active {
-  background-color: #515f6e;
+  background-color: #384654;
 }
 .header .nav > li.dropdown.user .dropdown-toggle {
   padding: 8px 4px 7px 9px;
@@ -484,9 +484,9 @@ body.boxed-layout .footer-widget {
   font-weight: normal;
 }
 .page-sidebar {
-  background-color: #5F6B77 !important;
+  background-color: #716457 !important;
   height: 100%;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   -webkit-backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
@@ -675,7 +675,7 @@ body.boxed-layout .footer-widget {
 .page-sidebar.mini {
   width: 50px;
   overflow: visible !important;
-  background-color: #0A74A6 !important;
+  background-color: #716457 !important;
   height: 100%;
   margin-top: 0;
   position: fixed;
@@ -786,7 +786,7 @@ body.boxed-layout .footer-widget {
 .page-sidebar .page-sidebar-wrapper > ul > li.open > a,
 .page-sidebar .page-sidebar-wrapper > ul > li > a:hover,
 .page-sidebar .page-sidebar-wrapper > ul > li:hover > a {
-  background: #515f6e;
+  background: #61564D;
   color: #ffffff;
 }
 .page-sidebar.mini .page-sidebar-wrapper > ul > li a > .label {
@@ -799,7 +799,7 @@ body.boxed-layout .footer-widget {
 }
 .page-sidebar.mini .page-sidebar-wrapper > ul > li > a:hover,
 .page-sidebar.mini .page-sidebar-wrapper > ul > li:hover > a {
-  background: #0b9c8f;
+  background: #61564D;
 }
 .page-sidebar.mini .page-sidebar-wrapper > ul > li.active > a i,
 .page-sidebar .page-sidebar-wrapper > ul > li:hover > a i {
@@ -1275,7 +1275,7 @@ body.boxed-layout .footer-widget {
 .page-content {
   margin-top: 0px;
   padding: 0px;
-  background-color: #E8F4F9;
+  background-color: #F9F3EC;
   overflow: auto;
   position: relative;
   min-height: 100%;
@@ -1322,7 +1322,7 @@ body.boxed-layout .footer-widget {
   font-size: 18px;
 }
 .page-content .breadcrumb {
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -1353,7 +1353,7 @@ body.boxed-layout .footer-widget {
   display: inline-block;
   position: absolute;
   width: 200px;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   background-color: #1b1e24;
   height: 100%;
 }
@@ -1780,7 +1780,7 @@ you can use the generic selector below, but it's slower:
 .horizontal-menu .bar-inner > ul > li {
   display: inline-block;
   padding: 10px 15px;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   vertical-align: middle;
 }
 .horizontal-menu .bar-inner > ul > li.classic {
@@ -1976,7 +1976,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   font-weight: 300;
   color: #795739;
 }
@@ -1995,7 +1995,7 @@ h4 {
 h3 small,
 h4 small,
 h5 small {
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   font-weight: 300;
   color: #444;
 }
@@ -2262,7 +2262,7 @@ hr {
   color: #666;
   margin: 0 0 10px;
   font-weight: 300;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
 }
 .page-title h3 {
   display: inline-block;
@@ -3313,9 +3313,9 @@ input[type="color"] {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   border: 1px solid #e5e9ec;
   transition: background 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
@@ -4290,7 +4290,7 @@ form legend,
   border: 1px solid #e5e9ec;
   position: relative;
   left: 3px;
-  border-radius: 2px;
+  border-radius: 0;
   padding-left: 8px;
   padding-right: 4px;
   padding-top: 4px;
@@ -4309,7 +4309,7 @@ form legend,
   color: #5E5E5E;
   text-shadow: none;
   border: #d1dade;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0;
   height: 37px;
   min-width: 34px;
   padding-right: 10px;
@@ -5464,13 +5464,13 @@ form legend,
   font-size: 11px;
   text-shadow: none;
   background-color: #d1dade;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   font-weight: 600;
   color: #5E5E5E;
 }
 .badge {
   text-shadow: none;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   font-weight: 600;
   background-color: #d1dade;
   font-size: 11px;
@@ -5610,7 +5610,7 @@ form legend,
 }
 .tiles .tiles-title {
   font-size: 10.5px;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   letter-spacing: 0.5px;
   font-weight: 600;
 }
@@ -5756,7 +5756,7 @@ form legend,
 .tiles .heading {
   font-size: 25px;
   display: block;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   font-weight: 600;
   margin: 4px 0px;
 }
@@ -7778,7 +7778,7 @@ input[type="checkbox"] {
 }
 .error-body {
   background-color: #e5e9ec !important;
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
   height: 100%;
 }
 .error-wrapper {
@@ -7813,7 +7813,7 @@ input[type="checkbox"] {
   height: inherit;
 }
 .error-container {
-  font-family: 'Open Sans';
+  font-family: 'Quattrocento Sans';
 }
 .error-container .error-number {
   color: #22262e;
@@ -8770,7 +8770,7 @@ body.rtl .footer-widget {
   .page-sidebar.opened {
     background-color: #1b1e24 !important;
     height: auto;
-    font-family: 'Open Sans';
+    font-family: 'Quattrocento Sans';
     width: 250px;
     margin-top: 60px;
   }
