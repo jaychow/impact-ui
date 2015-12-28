@@ -32,10 +32,10 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#information">Information</a></li>
-                <li><a href="#google_map">Contact</a></li>
-                <li><a href="https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/">Back to tutorial</a></li>
+                <li><a href="#contributors">Contributors</a></li>
+                <li><a href="#information">Research</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="search.php">Search</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

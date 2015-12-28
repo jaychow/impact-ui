@@ -37,23 +37,9 @@
             <!-- END MOBILE HEADER -->
             <!-- BEGIN LOGO -->
             <a href="#">
-                <img src="assets/img/logoImpact.png" class="logo" alt="" data-src="assets/img/logos/logo-v2.png" data-src-retina="assets/img/logo-v1.png" width="106" />
+                <img src="assets/img/logoImpact.png" class="logo" alt="" data-src="assets/img/logos/logo-v2.png" data-src-retina="assets/img/logo-v1.png" height="60" />
             </a>
             <!-- END LOGO -->
-            <!-- BEGIN LOGO NAV BUTTONS -->
-            <ul class="nav pull-right notifcation-center">
-                <li class="dropdown hidden-xs hidden-sm">
-                    <a href="index.php" class="dropdown-toggle active" data-toggle="">
-                        <div class="iconset top-home"></div>
-                    </a>
-                </li>
-                <li class="dropdown visible-xs visible-sm">
-                    <a href="#" data-webarch="toggle-right-side">
-                        <div class="iconset top-chat-white "></div>
-                    </a>
-                </li>
-            </ul>
-            <!-- END LOGO NAV BUTTONS -->
         </div>
         <!-- END NAVIGATION HEADER -->
         <!-- BEGIN CONTENT HEADER -->
@@ -75,16 +61,7 @@
             </div>
             <!-- END HEADER LEFT SIDE SECTION -->
             <!-- BEGIN HEADER RIGHT SIDE SECTION -->
-            <div class="pull-right">
-                <ul class="nav quick-section">
-                    <!-- BEGIN SEARCH BOX -->
-                    <li class="m-r-10 input-prepend inside search-form no-boarder">
-                        <span class="add-on"><span class="iconset top-search"></span></span>
-                        <input name="" type="text" class="no-boarder" placeholder="Search Dashboard" style="width:250px;">
-                    </li>
-                    <!-- END SEARCH BOX -->
-                </ul>
-            </div>
+
             <!-- END HEADER RIGHT SIDE SECTION -->
         </div>
         <!-- END CONTENT HEADER -->

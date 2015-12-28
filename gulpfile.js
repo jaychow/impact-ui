@@ -57,28 +57,40 @@ var targetCSSDir = 'assets/css';
 
 
 // CSS
-gulp.task('css', function (done) {
-    //var stream = gulp.src(lessDir + '/style.less')
-    //    .pipe(less({ style: 'compressed' }).on('error', gutil.log))
-    //    //.pipe(autoprefix('last 10 version'))
-    //    .pipe(gulp.dest(targetCSSDir))
-    //    .pipe(notify('CSS minified'));
-    //var stream1 = gulp.src(lessDir + '/style-v1.less')
-    //    .pipe(less({ style: 'compressed' }).on('error', gutil.log))
-    //    //.pipe(autoprefix('last 10 version'))
-    //    .pipe(gulp.dest(targetCSSDir))
-    //    .pipe(notify('CSS minified'));
+gulp.task('style', function(done){
+    var stream = gulp.src(lessDir + '/style.less')
+        .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+        //.pipe(autoprefix('last 10 version'))
+        .pipe(gulp.dest(targetCSSDir))
+        .pipe(notify('CSS minified'));
+    done();
+});
+gulp.task('style-v1', function(done){
+    var stream1 = gulp.src(lessDir + '/style-v1.less')
+        .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+        //.pipe(autoprefix('last 10 version'))
+        .pipe(gulp.dest(targetCSSDir))
+        .pipe(notify('CSS minified'));
+
+    done();
+});
+gulp.task('style-v2', function (done) {
+
     var stream2 = gulp.src(lessDir + '/style-v2.less')
         .pipe(less({ style: 'compressed' }).on('error', gutil.log))
         //.pipe(autoprefix('last 10 version'))
         .pipe(gulp.dest(targetCSSDir))
         .pipe(notify('CSS minified'));
 
-    //var stream2 = gulp.src(lessDir + '/style-v3.less')
-    //    .pipe(less({ style: 'compressed' }).on('error', gutil.log))
-    //    //.pipe(autoprefix('last 10 version'))
-    //    .pipe(gulp.dest(targetCSSDir))
-    //    .pipe(notify('CSS minified'));
+    done();
+});
+
+gulp.task('style-v3', function(done){
+    var stream3 = gulp.src(lessDir + '/style-v3.less')
+        .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+        //.pipe(autoprefix('last 10 version'))
+        .pipe(gulp.dest(targetCSSDir))
+        .pipe(notify('CSS minified'));
 
     done();
 });
@@ -93,7 +105,7 @@ gulp.task('rimraf', function () {
 
 // Default task
 gulp.task('default', ['rimraf'], function () {
-    gulp.start('css');
+    gulp.start(['style', 'style-v1', 'style-v2', 'style-v3']);
 });
 
 // Watch
@@ -101,14 +113,27 @@ gulp.task('watch', function () {
 
     // Watch .less files
     gulp.watch([
-        'webarch/less/**/*.less'
-    ], ['css']);
+        'webarch/less/style.less'
+    ], ['style']);
+    gulp.watch([
+        'webarch/less/style-v1.less',
+        'webarch/less/themes/v1/*.less',
+    ], ['style-v1']);
+    gulp.watch([
+        'webarch/less/style-v2.less',
+        'webarch/less/themes/v2/*.less',
+    ], ['style-v2']);
+    gulp.watch([
+        'webarch/less/style-v3.less',
+        'webarch/less/themes/v3/*.less',
+    ], ['style-v3']);
+
 
     //// Create LiveReload server
     var server = livereload();
 
     //// Watch any files in , reload on change
-    gulp.watch(['assets/css/style-test.css']).on('change', function (file) {
+    gulp.watch(['assets/css/style.css', 'assets/css/style-v1.css','assets/css/style-v2.css','assets/css/style-v3.css']).on('change', function (file) {
         server.changed(file.path);
     });
 

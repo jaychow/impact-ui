@@ -7,4 +7,62 @@
 @import "var.less";
 
 //Theme Overwrite
-
+#Filters .btn{
+  background-color:@color-primary;
+  color:#fff;
+}
+.page-title{
+  i{
+    color:@page-title-icon;
+  }
+}
+#Parks.list ul .titles h2{
+  color:@color-primary;
+}
+#Sort .meta{
+  background-color:@color-primary;
+  display:inline-block;
+  padding: 9px 12px;
+  color:#fff;
+}
+#Sort .meta span {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  margin: 0;
+  cursor: pointer;
+  top: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+#Sort .meta span:after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 7px;
+  border: 5px solid transparent;
+}
+#Sort .meta span.asc:after {
+  border-top: 7px solid #fff;
+}
+#Sort .meta span.desc:after {
+  top: 4px;
+  border-bottom: 7px solid #fff;
+}
+#Sort .meta span:hover {
+  background: transparent;
+}
+#Sort .meta span.asc:hover:after {
+  border-top-color: #e5e9ec;
+}
+#Sort .meta span.desc:hover:after {
+  border-bottom-color: #e5e9ec;
+}
+#Sort .meta span.active.asc:after {
+  border-top-color: #969696;
+}
+#Sort .meta span.active.desc:after {
+  border-bottom-color: #969696;
+}

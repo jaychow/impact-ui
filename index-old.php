@@ -1,6 +1,6 @@
 <?php
 $page = 'home';
-include_once('include/header-v1.php')?>
+include_once('include/header.php')?>
     <!-- BEGIN CONTENT -->
     <div class="page-container row-fluid">
       <?php include_once('include/sidebar.php')?>

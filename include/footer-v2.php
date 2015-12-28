@@ -1,26 +1,8 @@
-
-<!-- fifth section -->
-<div id="services" class="pad-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h3>Parallax scrolling effect is in action</h3>
-                <h4>The next is the address on Google maps</h4>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /fifth section -->
-
-<!-- google map -->
-<div id="google_map"></div>
-<!-- /google map -->
-
 <!-- footer -->
 <footer>
     <hr />
     <div class="container">
-        <p class="text-right">Copyright &copy; Your Company 2014</p>
+        <p class="text-right">Copyright &copy; IMPACT 2015</p>
     </div>
 </footer>
 <!-- /footer -->

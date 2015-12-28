@@ -8,8 +8,17 @@
 @navbar-default-link-hover-bg: #006837;
 
 @navbar-default-bg: #FFFFFF;
-@navbar-default-border: #EEEEEE;
+@navbar-default-border: #e3e3e3;
 @navbar-height:90px;
+
+@border-radius-base:        0px;
+@border-radius-large:       0px;
+@border-radius-small:       0px;
+
+@btn-default-color:              #FFF;
+@btn-default-bg:                 #0F6B3E;
+@btn-default-border: #0e4f2a;
+
 .navbar-nav {
   > li > a {
     font-weight:bold;
@@ -38,7 +47,7 @@ html, body {
 
 /* padded section */
 .pad-section {
-  padding: 50px 0;
+  padding: @navbar-height 0;
 }
 .pad-section img {
   width: 100%;
@@ -59,25 +68,36 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../img/background3.png) repeat center center fixed;
+  background: url(../img/background1.png) repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+  background-size: initial;
+  color: #ffffff;
+  h1 span.highlight{
+    color:#0F6B3E;
+  }
+  h3 {
+    color:#aba302;
+  }
 }
 
 #about {
+  h2{
+    color:#0F6B3E;
+  }
+  color: #4d4d4d;
 }
 
-#services {
-  background-color: #306d9f;
+#contributors {
+  background-color: #0F6B3E;
   color: #ffffff;
 }
-#services .glyphicon {
+#contributors .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
@@ -90,31 +110,40 @@ html, body {
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed;
+  background: url(../img/background2.png) repeat center center fixed;
   display: table;
-  height: 800px;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+  background-size: initial;
 }
 #information .panel {
   opacity: 0.85;
+}
+#catalog{
+  background-color:#aba302;
+  color:white;
 }
 
 #google_map {
   height: 500px;
 }
 
+
 footer {
+  color: #8A8A8A;
+  background-color:#6D6D6D;
   padding: 20px 0;
+  hr {
+    border-top:1px solid #8A8A8A;
+  }
 }
 footer .glyphicon {
   color: #333333;
   font-size: 60px;
 }
 footer .glyphicon:hover {
-  color: #306d9f;
+  color: #0F6B3E;
 }

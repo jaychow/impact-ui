@@ -1,9 +1,9 @@
 <?php
 $page = 'inner';
-include_once('include/header.php'); ?>
+include_once('include/header-v1.php'); ?>
     <!-- BEGIN CONTAINER -->
     <div class="page-container row-fluid">
-        <?php include_once('include/sidebar.php') ?>
+        <?php include_once('include/sidebar-v1.php') ?>
         <!-- BEGIN PAGE CONTAINER-->
         <div class="page-content">
             <div class="content">
