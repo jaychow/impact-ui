@@ -25,6 +25,7 @@
 // Load plugins
 var
     gulp = require('gulp'),
+    gutil = require('gulp-util'),
     less = require('gulp-less-sourcemap'),
     minifycss = require('gulp-minify-css'),
     uglify = require('gulp-uglify'),
@@ -47,70 +48,37 @@ var config = {
     uglifyJS: false
 }
 
+
+// Where do you store your Sass files?
+var lessDir = 'webarch/less';
+
+// Which directory should LESS compile to?
+var targetCSSDir = 'assets/css';
+
+
 // CSS
 gulp.task('css', function (done) {
-    var stream1 = gulp
-        .src('webarch/less/style-v1.less')
-        .pipe(less().on('error', notify.onError(function (error) {
-            return 'Error compiling style LESS: ' + error.message;
-        })))
-        .pipe(less({
-            sourceMap: {
-                sourceMapRootpath: '../src/less/'
-            }
-        }))
-        .pipe(gulp.dest('assets/css'));
+    //var stream = gulp.src(lessDir + '/style.less')
+    //    .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+    //    //.pipe(autoprefix('last 10 version'))
+    //    .pipe(gulp.dest(targetCSSDir))
+    //    .pipe(notify('CSS minified'));
+    //var stream1 = gulp.src(lessDir + '/style-v1.less')
+    //    .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+    //    //.pipe(autoprefix('last 10 version'))
+    //    .pipe(gulp.dest(targetCSSDir))
+    //    .pipe(notify('CSS minified'));
+    var stream2 = gulp.src(lessDir + '/style-v2.less')
+        .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+        //.pipe(autoprefix('last 10 version'))
+        .pipe(gulp.dest(targetCSSDir))
+        .pipe(notify('CSS minified'));
 
-    if (config.minifyCss === true) {
-        stream1.pipe(minifycss());
-    }
-
-    stream1
-        .pipe(notify({
-            message: 'Successfully compiled style LESS'
-        }));
-
-    var stream2 = gulp
-        .src('webarch/less/style-v2.less')
-        .pipe(less().on('error', notify.onError(function (error) {
-            return 'Error compiling style LESS: ' + error.message;
-        })))
-        .pipe(less({
-            sourceMap: {
-                sourceMapRootpath: '../src/less/'
-            }
-        }))
-        .pipe(gulp.dest('assets/css'));
-
-    if (config.minifyCss === true) {
-        stream2.pipe(minifycss());
-    }
-
-    stream2
-        .pipe(notify({
-            message: 'Successfully compiled style LESS'
-        }));
-
-    var stream3 = gulp
-        .src('webarch/less/style-v3.less')
-        .pipe(less().on('error', notify.onError(function (error) {
-            return 'Error compiling style LESS: ' + error.message;
-        })))
-        .pipe(less({
-            sourceMap: {
-                sourceMapRootpath: '../src/less/'
-            }
-        }))
-        .pipe(gulp.dest('assets/css'));
-
-    if (config.minifyCss === true) {
-        stream3.pipe(minifycss());
-    }
-
-    stream3
-        .pipe(notify({
-            message: 'Successfully compiled style LESS'
-        }));
+    //var stream2 = gulp.src(lessDir + '/style-v3.less')
+    //    .pipe(less({ style: 'compressed' }).on('error', gutil.log))
+    //    //.pipe(autoprefix('last 10 version'))
+    //    .pipe(gulp.dest(targetCSSDir))
+    //    .pipe(notify('CSS minified'));
 
     done();
 });
@@ -119,7 +87,7 @@ gulp.task('css', function (done) {
 gulp.task('rimraf', function () {
 
     return gulp
-        .src(['css'], {read: false})
+        .src(['assets/css'], {read: false})
         .pipe(rimraf());
 });
 

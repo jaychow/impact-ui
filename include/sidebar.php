@@ -22,7 +22,7 @@
             <!-- BEGIN SELECTED LINK -->
             <li class="start <?php echo ($page == 'home') ? 'active' : null?>">
                 <a href="index.php">
-                    <i class="icon-custom-home"></i>
+                    <i class="fa fa-home"></i>
                     <span class="title">Home</span>
                     <span class="selected"></span>
                 </a>

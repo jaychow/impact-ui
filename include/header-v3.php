@@ -30,7 +30,7 @@
             <ul class="nav pull-left notifcation-center visible-xs visible-sm">
                 <li class="dropdown">
                     <a href="#main-menu" data-webarch="toggle-left-side">
-                        <div class="iconset top-menu-toggle-white"></div>
+                        <i class="fa fa-bars"></i>
                     </a>
                 </li>
             </ul>
@@ -64,7 +64,7 @@
                 <ul class="nav quick-section">
                     <li class="quicklinks">
                         <a href="#" class="" id="layout-condensed-toggle">
-                            <i class="fa fa-bars"></i>
+                            <div class="iconset top-menu-toggle-white"></div>
                         </a>
                     </li>
                 </ul>

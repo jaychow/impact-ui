@@ -429,7 +429,7 @@
     padding-top: 0px;
   }
     .page-sidebar.opened{
-        background-color:#1b1e24 !important;
+        background-color:@sidebar-color !important;
         height:auto;
         font-family: 'Open Sans';
         width: 250px;
@@ -440,7 +440,7 @@
         width: 45px;
         position:absolute;
         height:100%;
-        background-color:#0aa699 !important;
+        background-color:@color-primary !important;
     }
 
     .page-sidebar.opened .inner-menu{
@@ -448,7 +448,7 @@
         width:200px;
     }
     .page-sidebar.opened .page-sidebar-wrapper > ul > li > a {
-      color: #8b91a0;
+      color: @color-grey;
     }
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li:last-child > a {
@@ -456,7 +456,7 @@
     }
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li a i {
-         color: #8b91a0;
+         color: @color-grey;
          width: 20px;
              text-align: center;
         display: inline-block;
@@ -466,25 +466,25 @@
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li.open > a, 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li >a:hover, 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li:hover >a {  
-      background: #1b1e24;
-     /* border-left:4px solid  #0aa699;*/
+      background: @sidebar-color;
+     /* border-left:4px solid  @color-primary;*/
       padding:11.5px 31px;
-      color: #fff;
+      color: @color-white;
     }
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li.open > a i, 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li >a:hover i, 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li:hover >a  i{  
 
-      color: #fff;
+      color: @color-white;
     }
 
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li.active > a {
       border-top-color: transparent !important;
-      color:#fff;
+      color:@color-white;
     }
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li.active  i{
-     color:#fff;
+     color:@color-white;
     }   
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > a.open {
@@ -498,7 +498,7 @@
 
     .page-sidebar.opened  .page-sidebar-wrapper ul > li.active > a .arrow:before,
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li.active > a .arrow.open:before {  
-       color: #fff !important;
+       color: @color-white !important;
     }
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > ul.sub-menu > li > a {
@@ -515,7 +515,7 @@
     }
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > ul.sub-menu > li > a:hover {
-      background: #1b1e24 !important;
+      background: @sidebar-color !important;
 
     }
 
@@ -523,7 +523,7 @@
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > ul.sub-menu  li > ul.sub-menu > li.active > a, 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > ul.sub-menu  li > ul.sub-menu > li > a:hover,
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > ul.sub-menu  li.open > a  {
-      color: #fff !important;
+      color: @color-white !important;
     }
 
     .page-sidebar.opened  .page-sidebar-wrapper > ul > li > ul.sub-menu  a .arrow:before,
@@ -544,7 +544,7 @@
     .page-sidebar.opened ul.folders> li >a{
         padding:5px 31px;
         font-size:13px; 
-        color:#fff; 
+        color:@color-white; 
         display: block;
         position:relative;
     }
@@ -651,10 +651,10 @@
   }
   .page-sidebar .page-sidebar-wrapper > ul > li > a {
     padding: 13px;
-    color: #fff;
+    color: @color-white;
   }
   .page-sidebar .page-sidebar-wrapper > ul > li a i {
-    color: #fff;
+    color: @color-white;
   }
   .page-sidebar .user-info {
     display: none;
@@ -760,7 +760,7 @@
 /* Portrait view of all tablet devices */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   body{
-     background-color:#1b1e24;
+     background-color:@sidebar-color;
     &.hide-top-content-header {
       .header{
         width: 100%;
@@ -794,10 +794,10 @@
   }
   .inner-menu-always-open .page-sidebar .page-sidebar-wrapper > ul > li > a {
     padding: 13px !important;
-    color: #fff;
+    color: @color-white;
   }
   .inner-menu-always-open .page-sidebar .page-sidebar-wrapper > ul > li a i {
-    color: #fff;
+    color: @color-white;
   }
   .inner-menu-always-open .page-sidebar .user-info {
     display: none;
@@ -1062,10 +1062,10 @@
   }
   .inner-menu-always-open .page-sidebar .page-sidebar-wrapper > ul > li > a {
     padding: 13px !important;
-    color: #fff;
+    color: @color-white;
   }
   .inner-menu-always-open .page-sidebar .page-sidebar-wrapper > ul > li a i {
-    color: #fff;
+    color: @color-white;
   }
   .inner-menu-always-open .page-sidebar .user-info {
     display: none;
@@ -1279,7 +1279,7 @@
   }
   /*** Horizontal Menu **/
   .horizontal-menu .bar{
-    background-color: #fff;
+    background-color: @color-white;
     .bar-inner {
       display: block;
       max-height: 400px;
@@ -1699,7 +1699,7 @@
         }
     }
     &.boxed-layout{
-        background-color: #f6f7f8;
+        background-color: @base-light-five;
         .container{
             position: relative;
         }

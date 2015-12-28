@@ -16,7 +16,7 @@
     <link href="assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" />
     <!-- END PLUGIN CSS -->
     <!-- BEGIN CORE CSS FRAMEWORK -->
-    <link href="webarch/css/webarch.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-v1.css" rel="stylesheet" type="text/css" />
     <!-- END CORE CSS FRAMEWORK -->
 </head>
 <body class="">
@@ -37,7 +37,7 @@
             <!-- END MOBILE HEADER -->
             <!-- BEGIN LOGO -->
             <a href="#">
-                <img src="assets/img/logoImpact.png" class="logo" alt="" data-src="assets/img/logoImpact.png" data-src-retina="assets/img/logoImpact.png" width="106" height="21" />
+                <img src="assets/img/logoImpact.png" class="logo" alt="" data-src="assets/img/logos/logo-v2.png" data-src-retina="assets/img/logo-v1.png" width="106" />
             </a>
             <!-- END LOGO -->
             <!-- BEGIN LOGO NAV BUTTONS -->

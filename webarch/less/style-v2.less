@@ -1,50 +1,120 @@
-/*------------------------------------------------------------------
-Webarch v2.8
-Theme : Default
-Generated From LESS
-[Table of contents]
+@import "bootstrap/bootstrap";
 
-1. Layouts
-2. Icons
-3. Horizontal Menu
-4. Typography
-5. Misc
-6. Form Elements
-7. Portlets
-8. Message and Notification
-9. Tiles
-10. Buttons
-11. Tabs & Accordians
-12. Sliders
-13. Tables
-14. Datatables
-15. Charts
-16. User Profile
-17. Vector Map
-18. Error Page
-19. Timeline
-20. Search Results
-21. RTL
-22. Print
-23. Slider
--------------------------------------------------------------------*/
+// Bootstrap vars overwrite
+@font-family-sans-serif: 'Cabin', sans-serif;
 
-// Fonts
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@navbar-default-link-color: #006837;
+@navbar-default-link-hover-color: #FFFFFF;
+@navbar-default-link-hover-bg: #006837;
 
-// Mixins tools
-@import "mixins";
-@import "modules/direction.less";
+@navbar-default-bg: #FFFFFF;
+@navbar-default-border: #EEEEEE;
+@navbar-height:90px;
+.navbar-nav {
+  > li > a {
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+}
+
+.navbar-brand{
+  line-height:@navbar-height;
+  padding:0;
+}
+
+.navbar-brand > img{
+  height: 60px;
+  display: inline-block;
+  padding-left: 15px;
+}
 
 
-//Change your theme here 
-@theme-name:"v2";
-//Change Direction - use `rtl` or `ltr
-@direction: ltr;
+// Custom Style
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
-@import "themes/@{theme-name}/theme";
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
 
-// Includes of Modules
-@import "modules";
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
 
-@import "responsive";
+/* additional sections */
+#home {
+  background: url(../img/background3.png) repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
