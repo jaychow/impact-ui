@@ -49,8 +49,8 @@ var config = {
 
 // CSS
 gulp.task('css', function (done) {
-    var stream = gulp
-        .src('webarch/less/style-test.less')
+    var stream1 = gulp
+        .src('webarch/less/style-v1.less')
         .pipe(less().on('error', notify.onError(function (error) {
             return 'Error compiling style LESS: ' + error.message;
         })))
@@ -62,11 +62,52 @@ gulp.task('css', function (done) {
         .pipe(gulp.dest('assets/css'));
 
     if (config.minifyCss === true) {
-        stream.pipe(minifycss());
+        stream1.pipe(minifycss());
     }
 
-    stream
-        .pipe(gulp.dest('assets/css'))
+    stream1
+        .pipe(notify({
+            message: 'Successfully compiled style LESS'
+        }));
+
+    var stream2 = gulp
+        .src('webarch/less/style-v2.less')
+        .pipe(less().on('error', notify.onError(function (error) {
+            return 'Error compiling style LESS: ' + error.message;
+        })))
+        .pipe(less({
+            sourceMap: {
+                sourceMapRootpath: '../src/less/'
+            }
+        }))
+        .pipe(gulp.dest('assets/css'));
+
+    if (config.minifyCss === true) {
+        stream2.pipe(minifycss());
+    }
+
+    stream2
+        .pipe(notify({
+            message: 'Successfully compiled style LESS'
+        }));
+
+    var stream3 = gulp
+        .src('webarch/less/style-v3.less')
+        .pipe(less().on('error', notify.onError(function (error) {
+            return 'Error compiling style LESS: ' + error.message;
+        })))
+        .pipe(less({
+            sourceMap: {
+                sourceMapRootpath: '../src/less/'
+            }
+        }))
+        .pipe(gulp.dest('assets/css'));
+
+    if (config.minifyCss === true) {
+        stream3.pipe(minifycss());
+    }
+
+    stream3
         .pipe(notify({
             message: 'Successfully compiled style LESS'
         }));
