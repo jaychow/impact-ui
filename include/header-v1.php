@@ -37,7 +37,7 @@
             <!-- END MOBILE HEADER -->
             <!-- BEGIN LOGO -->
             <a href="#">
-                <img src="assets/img/logos/logo-v2.png" class="logo" alt="" data-src="assets/img/logos/logo-v2.png" data-src-retina="assets/img/logo-v1.png" height="60" />
+                <img src="/assets/img/logos/logo-v2.png" class="logo" alt="" data-src="assets/img/logos/logo-v2.png" data-src-retina="assets/img/logo-v1.png" height="60" />
             </a>
             <!-- END LOGO -->
         </div>
