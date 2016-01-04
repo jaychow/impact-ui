@@ -488,7 +488,7 @@ $(document).ready(function () {
                 $('#main-menu').removeClass('mini');
                 $('.page-content').removeClass('condensed');
                 $('.scrollup').removeClass('to-edge');
-                $('.header-seperation').show();
+                //$('.header-seperation').show();
                 //Bug fix - In high resolution screen it leaves a white margin
                 $('.header-seperation').css('height', '60px');
                 $('.footer-widget').show();
@@ -497,7 +497,7 @@ $(document).ready(function () {
                 $('#main-menu').addClass('mini');
                 $('.page-content').addClass('condensed');
                 $('.scrollup').addClass('to-edge');
-                $('.header-seperation').hide();
+                //$('.header-seperation').hide();
                 $('.footer-widget').hide();
                 $('.main-menu-wrapper').scrollbar('destroy');
             }

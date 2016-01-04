@@ -4,6 +4,12 @@
     <div class="page-sidebar-wrapper scrollbar-dynamic" id="main-menu-wrapper">
         <!-- BEGIN SIDEBAR MENU -->
         <ul>
+            <li>
+                <a href="#" class="" id="layout-condensed-toggle">
+                    <i class="fa fa-bars"></i>
+                    <span class="title">Toggle Menu</span>
+                </a>
+            </li>
             <!-- BEGIN SELECTED LINK -->
             <li class="start <?php echo ($page == 'home') ? 'active' : null?>">
                 <a href="index.php">

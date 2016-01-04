@@ -47,13 +47,6 @@
             <!-- BEGIN HEADER LEFT SIDE SECTION -->
             <div class="pull-left">
                 <!-- BEGIN SLIM NAVIGATION TOGGLE -->
-                <ul class="nav quick-section">
-                    <li class="quicklinks">
-                        <a href="#" class="" id="layout-condensed-toggle">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </li>
-                </ul>
                 <!-- END SLIM NAVIGATION TOGGLE -->
                 <!-- BEGIN HEADER QUICK LINKS -->
 
